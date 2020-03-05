@@ -173,7 +173,7 @@ const buildHTML = async array =>{
                         <h5>Manager☕</h5>
                         <h5>ID: ${member.getId()}</h5>
                         <h5>Office Number: ${member.getOfficeNumber()}</h5>
-                        <a href="mailto:${member.getEmail()}" class="card-link">${member.getEmail()}</a>
+                        <h5>Email: <a href="mailto:${member.getEmail()}" class="card-link">${member.getEmail()}</a></h5>
                     </div>
                 </div>
             </div>`
@@ -189,7 +189,7 @@ const buildHTML = async array =>{
                         <h5>Engineer🛠️</h5>
                         <h5>ID: ${member.getId()}</h5>
                         <h5>GitHub Username: <a href="https://github.com/${member.getGithub()}">${member.getGithub()}</a></h5>
-                        <a href="mailto:${member.getEmail()}" class="card-link">${member.getEmail()}</a>
+                        <h5>Email: <a href="mailto:${member.getEmail()}" class="card-link">${member.getEmail()}</a></h5>
                     </div>
                 </div>
             </div>`
@@ -205,7 +205,7 @@ const buildHTML = async array =>{
                         <h5>Intern🎓</h5>
                         <h5>ID: ${member.getId()}</h5>
                         <h5>School: ${member.getSchool()}</h5>
-                        <a href="mailto:${member.getEmail()}" class="card-link">${member.getEmail()}</a>
+                        <h5>Email: <a href="mailto:${member.getEmail()}" class="card-link">${member.getEmail()}</a></h5>
                     </div>
                 </div>
             </div>`

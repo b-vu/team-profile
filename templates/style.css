@@ -26,10 +26,6 @@ h5, h6, p{
     margin-bottom: 15px;
 }
 
-.card-link{
-    font-size: larger;
-}
-
 .header{
     height: 100px;
     background-color: rgb(202, 35, 57);
