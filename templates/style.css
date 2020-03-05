@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: black;
+}
+
+html{
+    height: 100%;
+}
+
+h2, h4{
+    color: white;
+}
+
+h5, h6, p{
+    color: black;
+}
+
+#title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.card-link{
+    font-size: larger;
+}
+
+.header{
+    height: 100px;
+    background-color: rgb(202, 35, 57);
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    padding: 27px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.footer{
+    height: 40px;
+    background-color: rgb(202, 35, 57);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: auto;
+    border-top: 1px solid white;
+}

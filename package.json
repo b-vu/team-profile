@@ -1,0 +1,37 @@
+{
+  "name": "team-profile",
+  "version": "1.0.0",
+  "description": "Generates a team profile",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-vu/team-profile.git"
+  },
+  "keywords": [
+    "team",
+    "profile",
+    "generator",
+    "jest",
+    "test",
+    "inquirer",
+    "node"
+  ],
+  "author": "Brian Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-vu/team-profile/issues"
+  },
+  "homepage": "https://github.com/b-vu/team-profile#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.6",
+    "jest": "^25.1.0"
+  }
+}
