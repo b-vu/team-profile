@@ -244,7 +244,7 @@ const buildHTML = async array =>{
 </body>
 </html>`
 
-        await writeFileAsync("./output/team.html", html);
+        await writeFileAsync(__dirname + "/output/team.html", html);
 
         console.log("Your team profile has been generated.");
     }
